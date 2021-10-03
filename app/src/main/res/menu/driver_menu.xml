@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_update"
+        android:title="Editar Perfil"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/action_readQR"
+        android:title="Lectura QR"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/action_createQR"
+        android:title="Mi Codigo QR"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/action_logout"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never">
+    </item>
+
+</menu>

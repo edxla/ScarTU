@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.driver.MapDriverActivity">
+
+    <include layout="@layout/action_bar_toollbar">
+
+    </include>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="20dp"
+            >
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        >
+
+    </fragment>
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONECTARSE"
+        android:layout_gravity="bottom"
+        android:layout_margin="50dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/colorPrimaryDark">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/btnCameralocation"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="350dp"
+        android:text="◉"
+        android:textSize="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/transparente"
+
+        android:background="@drawable/rounded_button"
+
+        >
+
+    </Button>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "852215366163",
+    "project_id": "scartu-pruebas-2021",
+    "storage_bucket": "scartu-pruebas-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852215366163:android:e966cc7144f33d54a975e6",
+        "android_client_info": {
+          "package_name": "com.mobiletracker.scarTU"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852215366163-a585d4opd50dlnl49qoneheqn45ehpgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobiletracker.scarTU",
+            "certificate_hash": "42eaae88c52971811d273fd114a61c6259edc9b1"
+          }
+        },
+        {
+          "client_id": "852215366163-73cdtrl4ksl1f161i5ln6lv56s746u0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwU-LIyVrqFe_vkjK_6HOb5PcdNtC4Xrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852215366163-73cdtrl4ksl1f161i5ln6lv56s746u0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
